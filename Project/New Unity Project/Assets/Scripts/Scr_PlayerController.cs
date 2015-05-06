@@ -55,7 +55,7 @@ public class Scr_PlayerController : MonoBehaviour
 		//Destroy (other.gameObject);
 		
 		// Deactivate pickup objects when collided with & increment count
-		if (other.gameObject.CompareTag("Pick Up"))
+		if (other.gameObject.CompareTag("PickUp"))
 		{
 			other.gameObject.SetActive(false);
 			mCount++;
