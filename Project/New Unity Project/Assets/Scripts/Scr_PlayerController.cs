@@ -42,7 +42,7 @@ public class Scr_PlayerController : MonoBehaviour
 		float moveJump = Input.GetAxis("Jump");
 		
 		// Determine movement vector
-		Vector3 movement = new Vector3(moveHorizontal, moveJump, moveVertical);
+		Vector3 movement = new Vector3(moveHorizontal, moveJump * mSpeed, moveVertical);
 		
 		// Add a force in the given direction
 		mRigidBody.AddForce(movement * mSpeed);
@@ -69,7 +69,7 @@ public class Scr_PlayerController : MonoBehaviour
 		mCountText.text = "Count: " + mCount.ToString();
 		if (mCount >= mNumPickUps)
 		{
-			mWinText.text = "James is gay!";
+			mWinText.text = "You Win!";
 		}
 	}
 }
