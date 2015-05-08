@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\Unity Projects\SpaceShooter\Assets\Scripts\ScrPlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Scr_PlayerController.cs">
     <Files>
-      <File FileName="..\..\..\..\Unity Projects\SpaceShooter\Assets\Scripts\ScrPlayerController.cs" Line="40" Column="4" />
+      <File FileName="Assets\Scripts\Scr_PlayerController.cs" Line="60" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
