@@ -39,9 +39,10 @@ public class Scr_PlayerController : MonoBehaviour
 		// Get the horizontal & verticel axis of the ball
 		float moveHorizontal = Input.GetAxis("Horizontal");
 		float moveVertical = Input.GetAxis("Vertical");
+		float moveJump = Input.GetAxis("Jump");
 		
 		// Determine movement vector
-		Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+		Vector3 movement = new Vector3(moveHorizontal, moveJump, moveVertical);
 		
 		// Add a force in the given direction
 		mRigidBody.AddForce(movement * mSpeed);
