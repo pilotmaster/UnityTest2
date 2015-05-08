@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class Scr_PlayerController : MonoBehaviour
 {
 	// Movement variables - public variables show up in editor
 	public float mSpeed;
-	public Text mCountText;
-	public Text mWinText;
+	public GUIText mCountText;
+	public GUIText mWinText;
 	public int mNumPickUps;
 	
 	// Variables to hold references to Game Object components
