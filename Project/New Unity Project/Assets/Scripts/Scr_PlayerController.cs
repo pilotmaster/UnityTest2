@@ -68,7 +68,7 @@ public class Scr_PlayerController : MonoBehaviour
 		mCountText.text = "Count: " + mCount.ToString();
 		if (mCount >= mNumPickUps)
 		{
-			mWinText.text = "You Win!";
+			mWinText.text = "You're Gay!";
 		}
 	}
 }
